@@ -4,11 +4,223 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+		integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<title>Olapeju Kazeem Portfolio</title>
 </head>
 
 <body>
-	<h1>Jello</h1>
+	<div id="portfolio-page">
+		<div class="wrapper">
+			<div class="left-side">
+				<nav class="nav">
+					<div class="logo">
+						<img src="/assets/logo.svg" alt="">
+					</div>
+					<ul>
+						<li><button data-href="#about" type="button" class="link-item">About</button></li>
+						<li><button data-href="#projects" type="button" class="link-item">All Projects</button></li>
+						<li><button data-href="#contact" type="button" class="link-item">Contact Me</button></li>
+					</ul>
+				</nav>
+
+				<div class="content">
+					<div class="sections_wrapper">
+						<div class="sections__inner">
+							<div class="section " id="about">
+								<h1>Peju K.’s Portfolio</h1>
+								<p>I build custom website solutions for your business and professional needs.
+								</p>
+								<p>I also create wireframes and ui design that properly represent your brand and
+									mission.
+								</p>
+								<a href="/assets/olapeju_kazeem_resume.pdf" target="_blank" class="link-btn">View my
+									resume</a>
+							</div>
+							<div class="section" id="contact">
+								<h1>Contact Me</h1>
+
+							</div>
+							<div class="section" id="projects">
+								<h1>For you Projects</h1>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="arrows">
+
+					<button class="next" type="button"><span>Next</span><i
+							class="fa-solid fa-chevron-down"></i></button>
+				</div>
+			</div>
+			<div class="right-side">
+				<div class="cards">
+					<div class="card" style="--index:1">
+						<div class="content">
+							<span class="project">Project</span>
+							<h2><a href="#">Alianz.ca</a></h2>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<ul class="stack">
+								<li data-stack="wordpress"><span>Wordpress</span></li>
+								<li data-stack="elementor"><span>Elementor</span></li>
+							</ul>
+						</div>
+						<div class="screen">
+							<div class="screen-bar">
+								<span class="dots"></span>
+								<span class="dots"></span>
+								<span class="dots"></span>
+							</div>
+							<div class="screen-body">
+								<img src="/assets/alianz-home.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="card" style="--index:2">
+						<div class="content">
+							<span class="project">Project2</span>
+							<h2><a href="#">Stekkar Art</a></h2>
+							<p>In this tutorial, you will learn how to stack cards (div elements) on scroll using pure
+								CSS. Watch the video below for a detailed tutorial.</p>
+
+
+							<ul class="stack">
+								<li data-stack="wordpress"><span>Wordpress</span></li>
+								<li data-stack="elementor"><span>Elementor</span></li>
+							</ul>
+						</div>
+						<div class="screen">
+							<div class="screen-bar">
+								<span class="dots"></span>
+								<span class="dots"></span>
+								<span class="dots"></span>
+							</div>
+							<div class="screen-body">
+								<img src="/assets/alianz-home.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="card" style="--index:3">
+						<div class="content">
+							<span class="project">Project3</span>
+							<h2><a href="#">Stukos Restaurant</a></h2>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<p>A simple site built with Elementor and WordPress.</p>
+
+
+							<ul class="stack">
+								<li data-stack="wordpress"><span>Wordpress</span></li>
+								<li data-stack="elementor"><span>Elementor</span></li>
+							</ul>
+						</div>
+						<div class="screen">
+							<div class="screen-bar">
+								<span class="dots"></span>
+								<span class="dots"></span>
+								<span class="dots"></span>
+							</div>
+							<div class="screen-body">
+								<img src="/assets/alianz-home.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="card" style="--index:1">
+						<div class="content">
+							<span class="project">Project</span>
+							<h2><a href="#">Alianz.ca</a></h2>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<ul class="stack">
+								<li data-stack="wordpress"><span>Wordpress</span></li>
+								<li data-stack="elementor"><span>Elementor</span></li>
+							</ul>
+						</div>
+						<div class="screen">
+							<div class="screen-bar">
+								<span class="dots"></span>
+								<span class="dots"></span>
+								<span class="dots"></span>
+							</div>
+							<div class="screen-body">
+								<img src="/assets/alianz-home.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="card" style="--index:2">
+						<div class="content">
+							<span class="project">Project2</span>
+							<h2><a href="#">Stekkar Art</a></h2>
+							<p>In this tutorial, you will learn how to stack cards (div elements) on scroll using pure
+								CSS. Watch the video below for a detailed tutorial.</p>
+
+
+							<ul class="stack">
+								<li data-stack="wordpress"><span>Wordpress</span></li>
+								<li data-stack="elementor"><span>Elementor</span></li>
+							</ul>
+						</div>
+						<div class="screen">
+							<div class="screen-bar">
+								<span class="dots"></span>
+								<span class="dots"></span>
+								<span class="dots"></span>
+							</div>
+							<div class="screen-body">
+								<img src="/assets/alianz-home.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="card" style="--index:3">
+						<div class="content">
+							<span class="project">Project3</span>
+							<h2><a href="#">Stukos Restaurant</a></h2>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<p>A simple site built with Elementor and WordPress.</p>
+							<p>A simple site built with Elementor and WordPress.</p>
+
+
+							<ul class="stack">
+								<li data-stack="wordpress"><span>Wordpress</span></li>
+								<li data-stack="elementor"><span>Elementor</span></li>
+							</ul>
+						</div>
+						<div class="screen">
+							<div class="screen-bar">
+								<span class="dots"></span>
+								<span class="dots"></span>
+								<span class="dots"></span>
+							</div>
+							<div class="screen-body">
+								<img src="/assets/alianz-home.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="decoration-bottom-left"></div>
+	<div class="decoration-top-right"></div>
+	<div class="decoration-small-right"></div>
+	<script src="script.js"></script>
 </body>
 
 </html>
