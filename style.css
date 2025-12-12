@@ -95,11 +95,13 @@ a {
 		max-width: 40vw;
 		position: relative;
 		overflow: hidden;
+
 		@media screen and (max-width: 580px) {
 			max-width: 100%;
 			margin-top: 3rem;
 		}
-		h1 {
+		h1,
+		h2 {
 			font-family: var(--heading);
 			font-size: clamp(2.5rem, 5vw, 9rem);
 			margin-bottom: 2rem;
@@ -138,6 +140,7 @@ a {
 	.sections_inner {
 		width: 100%;
 		height: 100%;
+
 		overflow: hidden;
 	}
 
@@ -151,6 +154,7 @@ a {
 		transition: transform 0.75s;
 		margin-bottom: 0;
 		padding: 0;
+		padding-top: 3rem;
 		/* display: flex;
 		flex-direction: column;
 		justify-content: center; */
@@ -205,14 +209,6 @@ a {
 	}
 }
 
-#about {
-	/* background-color: red; */
-}
-
-#contact {
-	/* background-color: pink; */
-}
-
 .right-side {
 	padding-top: 2rem;
 	.cards {
@@ -256,7 +252,7 @@ a {
 		/* opacity: 0.8; */
 	}
 	.card:not(:first-child):before {
-		background: rgba(0, 0, 0, 0.41);
+		background: rgba(14, 2, 28, 0.41);
 	}
 	.content {
 		margin-bottom: 2rem;
@@ -413,5 +409,17 @@ a {
 }
 
 .hide {
+	display: none !important;
+}
+
+.content .asana-embed-container {
+	background-color: transparent !important;
+}
+.DesignTokensDefault {
+	background-color: transparent !important;
+}
+
+.WorkRequestsSubmissionFormHeader-cardContainer {
+	background-color: transparent !important;
 	display: none !important;
 }
